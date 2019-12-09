@@ -45,19 +45,4 @@ a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
-  @media (max-width: 800px) {
-    display: flex;
-    margin: 24px 0 0 0;
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-footer {
-  margin-top: 128px;
-  text-align: center;
-
-  .subscribe {
-    background-color: $green;
-  }
 }
