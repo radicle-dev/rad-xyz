@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Page from 'layouts/page'
 
 export default function Index() {
@@ -6,12 +5,9 @@ export default function Index() {
     <Page>
       <div className="content">
         <h1>
-          Protocol
+          Docs
         </h1>
-        <p>Some stuff about the protocol</p>
-        <Link href="/docs">
-          <a>Read the docs</a>
-        </Link>
+        <p>All the docs</p>
       </div>
     </Page>
   )
