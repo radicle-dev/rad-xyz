@@ -41,7 +41,7 @@ export default function Index() {
         <section id="how-it-works">
           <div className="container">
             <div className="left-box">
-              <h2>Our collaboration model</h2>
+              <h2>A peer-to-peer collaboration model</h2>
               <section id="flowers">
                 <pre><code>                _(_)_     </code></pre>
                 <pre><code>    @@@@       (_)@(_)    </code></pre>
