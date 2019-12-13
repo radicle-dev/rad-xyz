@@ -6,20 +6,20 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div>
-          <h2>Follow us</h2>
+          <h2>Get involved</h2>
           <p>
-              Radicle is actively being built, explored, and experimented with. To follow our progress you can:
+              Radicle is free and open source software, we welcome all contributors.
           </p>
           <ul>
             <li>Follow us on <a href="https://twitter.com/radicle_xyz">
               twitter
             </a></li>
-            <li>Explore the code on <a href="https://github.com/radicle-dev">
+            <li>Contribute to the development on <a href="https://github.com/radicle-dev">
               github
             </a></li>
-            <li>Join the conversation on <a href="https://radicle.community">
-              discourse</a> and <a href="irc://freenode:1/radicle">
-              IRC</a>
+            <li>Join the conversation on <a href="https://radicle.community">discourse</a>
+            </li>
+            <li>Drop in the <a href="irc://freenode:1/radicle">#radicle</a> channel on freenode
             </li>
           </ul>
         </div>
