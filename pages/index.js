@@ -54,7 +54,7 @@ export default function Index() {
               </section>
             </div>
             <p>
-              Peer-to-peer networking offers a new design space for bazaar-style development, as it provides new communication pathways for developers that aren't limited by current processes and workflows. That's why we've decided to pursue a **multi-upstream** model for Radicle. We've realized by exploring multi-upstream peer-to-peer development makes it far easier for developers and maintainers to develop not just a shared, but a **trusted** representation grounded in actual source code *and* secure peer identities.
+              Peer-to-peer networking offers a new design space for bazaar-style development, as it provides new communication pathways for developers that aren't limited by current processes and workflows. That's why we've decided to pursue a <em>multi-upstream</em> model for Radicle. We've realized by exploring multi-upstream peer-to-peer development makes it far easier for developers and maintainers to develop not just a shared, but a <em>trusted</em> representation grounded in actual source code <em>and</em> secure peer identities.
             </p>
             <div className="left-box">
               <h2>How it works</h2>
@@ -68,7 +68,7 @@ export default function Index() {
               </div>
             </div>
             <p>
-                We adopt the SSB &quot;social overlay&quot; paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) git backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g pijul. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
+                We adopt the SSB <q>social overlay</q> paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) git backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g pijul. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
             </p>
           </div>
         </section>
