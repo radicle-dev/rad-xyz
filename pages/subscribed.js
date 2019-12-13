@@ -1,19 +1,13 @@
 import Link from 'next/link'
-import Page from 'layouts/page'
 
+import 'styles/style.scss'
 export default function Index() {
   return (
-    <Page>
       <section id="subscribed">
         <div className="container">
           <h1>
-          Subscribed!
+          Thank you!
           </h1>
-          <Link href="/">
-            <button>
-            Go back
-            </button>
-          </Link>
           <section id="flowers-success">
             <pre><code>                _(_)_                     _(_)_                     _(_)_     </code></pre>
             <pre><code>    @@@@       (_)@(_)        @@@@       (_)@(_)        @@@@       (_)@(_)    </code></pre>
@@ -24,8 +18,13 @@ export default function Index() {
             <pre><code>  \\|//   \\|///  \\\|//    \\|//   \\|///  \\\|//    \\|//   \\|///  \\\|//  </code></pre>
             <pre><code>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</code></pre>
           </section>
+          <br/>
+          <Link href="/">
+            <button>
+            &larr; Back home
+            </button>
+          </Link>
         </div>
       </section>
-    </Page>
   )
 }

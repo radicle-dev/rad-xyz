@@ -25,11 +25,13 @@ export default function Footer() {
         </div>
         <div>
           <h2>Stay up to date</h2>
-          <p>We send regular updates about our project. Enter your email to get them. </p>
+          <p>If you'd like to be informed of progress, hand us your e-mail and we'll keep you in the loop.</p>
           <form action="https://formspree.io/xrgbwygl" method="POST" className="input">
-            <input type="email" name="_replyto" placeholder="Enter your email"/>
-            <input type="hidden" name="_next" value="/subscribed" />
+            <input type="email" name="email" placeholder="E-mail" required />
             <button type="submit">Subscribe</button>
+            <input type="hidden" name="_subject" value="Subscription" />
+            <input type="hidden" name="_format" value="plain" />
+            <input type="hidden" name="_next" value="/subscribed" />
           </form>
         </div>
       </div>
