@@ -26,7 +26,7 @@ yarn export
 
 ### Deploy
 
-This will build and deploy the website to github pages with the custom url [accessp2p.xyz](https://accessp2p.xyz).
+This will build and deploy the website to github pages with the custom url [radicle.xyz](https://radicle.xyz).
 
 ```
 yarn deploy

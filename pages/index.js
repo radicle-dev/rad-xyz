@@ -41,13 +41,29 @@ export default function Index() {
         <section id="how-it-works">
           <div className="container">
             <div className="left-box">
+              <h2>Our collaboration model</h2>
+              <section id="flowers">
+                <pre><code>                _(_)_     </code></pre>
+                <pre><code>    @@@@       (_)@(_)    </code></pre>
+                <pre><code>   @@()@@ wWWWw  (_)\     </code></pre>
+                <pre><code>    @@@@  (___)     \|/   </code></pre>
+                <pre><code>     /      Y       \|    </code></pre>
+                <pre><code>  \ |     \ |/       | /  </code></pre>
+                <pre><code>  \\|//   \\|///  \\\|//  </code></pre>
+                <pre><code>^^^^^^^^^^^^^^^^^^^^^^^^^^</code></pre>
+              </section>
+            </div>
+            <p>
+              Peer-to-peer networking offers a new design space for bazaar-style development, as it provides new communication pathways for developers that aren't limited by current processes and workflows. That's why we've decided to pursue a **multi-upstream** model for Radicle. We've realized by exploring multi-upstream peer-to-peer development makes it far easier for developers and maintainers to develop not just a shared, but a **trusted** representation grounded in actual source code *and* secure peer identities.
+            </p>
+            <div className="left-box">
               <h2>How it works</h2>
               <div id="dev-links">
                 <p>
-                  Read the <Link href="https://github.com/radicle-dev"><a>protocol specification</a></Link>
+                  Read the protocol <Link href="https://github.com/radicle-dev/radicle-link/blob/master/spec/out/radicle-link.pdf"><a>specification</a></Link>
                 </p>
                 <p>
-                  Browse the <Link href="https://github.com/radicle-dev"><a>protocol source code</a></Link>
+                  Browse the protocol <Link href="https://github.com/radicle-dev/radicle-link"><a>source code</a></Link>
                 </p>
               </div>
             </div>
@@ -55,6 +71,20 @@ export default function Index() {
                 We adopt the SSB &quot;social overlay&quot; paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) git backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g pijul. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
             </p>
           </div>
+        </section>
+        <section id="clouds">
+          <pre><code>                _                                                _                                                     _                                                _                                                    _                                                _                                                </code></pre>
+          <pre><code>              (`  ).                   _                       (`  ).                   _                            (`  ).                   _                       (`  ).                   _                           (`  ).                   _                       (`  ).                   _                         </code></pre>
+          <pre><code>             (     ).              .:(`  )`.                  (     ).              .:(`  )`.                       (     ).              .:(`  )`.                  (     ).              .:(`  )`.                      (     ).              .:(`  )`.                  (     ).              .:(`  )`.                     </code></pre>
+          <pre><code>)           _(       '`.          :(   .    )                _(       '`.          :(   .    )                     _(       '`.          :(   .    )                _(       '`.          :(   .    )                    _(       '`.          :(   .    )                _(       '`.          :(   .    )                    </code></pre>
+          <pre><code>        .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )                .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )               .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )                   </code></pre>
+          <pre><code>       ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )                ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )               ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )                    </code></pre>
+          <pre><code>`.     `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._             `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._            `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._                 </code></pre>
+          <pre><code>  )      ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )             ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )            ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )               </code></pre>
+          <pre><code>)  )  ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))        ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))       ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))             </code></pre>
+          <pre><code>.-'  (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))      (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))     (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))            </code></pre>
+          <pre><code>                  (_  )                     ` __.:'                (_  )                     ` __.:'                     (_  )                     ` __.:'                (_  )                     ` __.:'                    (_  )                     ` __.:'                (_  )                     ` __.:'              </code></pre>
+          <pre><code>                                                                                                                                                                                                                                                                                                                               </code></pre>
         </section>
       </div>
     </Page>

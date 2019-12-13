@@ -42,8 +42,7 @@ footer .container,
 header .container {
   margin: auto;
   max-width: 960px;
-  padding: 64px 24px;
-
+  padding: 96px 24px;
 }
 
 input[type=email] {
@@ -97,10 +96,13 @@ button {
   background-color: $black;
   color: $white;
 
+
   .container {
+    padding-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
+    grid-row-gap: 120px;
 
     .left-box {
       display: flex;
@@ -116,21 +118,48 @@ button {
   }
 }
 
+#subscribed {
+  text-align: center;
+
+  h1 {
+    padding-bottom: 24px;
+  }
+}
+
+#clouds {
+  background-color: $black;
+  color: $blue;
+  padding: 72px 0;
+}
+
+#flowers {
+  background-color: $black;
+  color: $green;
+
+}
+
+#flowers-success {
+  background-color: $white;
+  color: $pink;
+  padding-top: 96px;
+  ;
+}
+
 
 footer {
   background-color: $black;
   color: $white;
+  padding-bottom: 96px;
+
 
   p {
     padding-bottom: 24px;
-    ;
   }
 
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
-    ;
 
     div {
       display: flex;
