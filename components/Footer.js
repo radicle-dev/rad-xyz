@@ -31,7 +31,7 @@ export default function Footer() {
             <button type="submit">Subscribe</button>
             <input type="hidden" name="_subject" value="Subscription" />
             <input type="hidden" name="_format" value="plain" />
-            <input type="hidden" name="_next" value="/subscribed" />
+            <input type="hidden" name="_next" value="https://radicle.xyz/subscribed" />
           </form>
         </div>
       </div>
