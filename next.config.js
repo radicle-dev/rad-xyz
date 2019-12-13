@@ -6,7 +6,7 @@ const config = {
     // Load fonts correctly by outputing to fonts dir and set the public path
     // relative to the static dir.
     config.module.rules.push({
-      test: /\.(eot|ttf|woff|woff2)$/,
+      test: /\.(eot|ttf|woff|woff2|otf)$/,
       use: {
         loader: 'file-loader',
         options: {
