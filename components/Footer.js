@@ -1,17 +1,39 @@
-// import Link from 'next/link'
+import Link from 'next/link'
 
 
 export default function Footer() {
   return (
     <footer>
-      <br/>
-      <br/>
-      <br/>
-      <hr/>
-      <input type="email" placeholder="Enter your email"/>
-      <button>Join the network</button>
-      <p>
-        footer
-      </p>
+      <div className="container">
+        <div>
+          <h2>Follow us</h2>
+          <p>
+              Radicle is actively being built, explored, and experimented with. To follow our progress you can:
+          </p>
+          <ul>
+            <li>Follow us on <Link href="https://github.com/radicle-dev">
+              <a>twitter</a>
+            </Link></li>
+            <li>Explore the code on <Link href="https://github.com/radicle-dev">
+              <a>github</a>
+            </Link></li>
+            <li>Read our <Link href="https://github.com/radicle-dev">
+              <a>blog</a>
+            </Link></li>
+            <li>Join the conversation on <Link href="https://github.com/radicle-dev">
+              <a>discourse</a></Link> and <Link href="https://github.com/radicle-dev">
+              <a>IRC</a>
+            </Link></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Stay up to date</h2>
+          <p>We send regular updates about our project. Enter your email to get them. </p>
+          <div className="input">
+            <input type="email" placeholder="Enter your email"/>
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
     </footer>)
 }

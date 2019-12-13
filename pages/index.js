@@ -5,63 +5,56 @@ export default function Index() {
   return (
     <Page>
       <div className="content">
-        <section>
-
-          <h1>A peer-to-peer network for code collaboration 🌱</h1>
-          <input type="email" placeholder="Enter your email"/>
-          <button>Join the network</button>
-        </section>
-        <section id="three-up">
-          <div>
-            <h3>🤝 Peer-to-peer</h3>
-            <p>
-          Extending git with peer-to-peer networking. No hassle with setting up your own hosting, and no need to trust companies with your data.
-            </p>
-          </div>
-          <div>
-            <h3>💾 Local-first</h3>
-            <p>
-          All data, including issues, comments and other social artifacts is yours & lives on your machine.
-            </p>
-          </div>
-          <div>
-            <h3>🔑 Trustless</h3>
-            <p>
-          Cryptographic peer identities and way better keys that take security to another level
-            </p>
+        <section id="subtitle">
+          <div className="container">
+            <h1>Secure peer-to-peer code collaboration without intermediaries.</h1>
           </div>
         </section>
-        <hr/>
-        <section>
-
-          <h2>a new collaboration model</h2>
-          <p>
-          Peer-to-peer networking offers a new design space for bazaar-style development, as it provides new communication pathways for developers that aren't limited by current processes and workflows. That's why we've decided to pursue a **multi-upstream** model for Radicle. We've realized by exploring multi-upstream peer-to-peer development makes it far easier for developers and maintainers to develop not just a shared, but a **trusted** representation grounded in actual source code *and* secure peer identities.
-          </p>
-          <Link href="/protocol">
-            <a>→ How Radicle works</a>
-          </Link>
-          <img src="https://res.cloudinary.com/dvargvav9/image/upload/v1575920463/clone_rtbkzp.png" alt="how-it-works"/>
-          <hr/>
-          <h2>radicle-upstream</h2>
-          <p>
-          A desktop client for managing issues, collaborating on code and connecting to peers on the Radicle network. Yes it has dark mode.
-          </p>
-          <Link href="/upstream">
-            <a>→ Try it out</a>
-          </Link>
+        <section id="value-prop">
+          <div className="container">
+            <div>
+              <h2>Peer-to-peer</h2>
+              <p>
+                Extending git with peer-to-peer networking. No hassle with setting up your own hosting, and no need to trust companies with your data.
+              </p>
+            </div>
+            <div>
+              <h2>Local-first</h2>
+              <p>
+                All data, including issues, comments and other social artifacts is yours & lives on your machine.
+              </p>
+            </div>
+            <div>
+              <h2>Secure</h2>
+              <p>
+                Cryptographic peer identities and way better keys that take security to another level
+              </p>
+            </div>
+            <div>
+              <h2>Trustless</h2>
+              <p>
+                Shared ownership of projects & everything that comes with that.
+              </p>
+            </div>
+          </div>
         </section>
-        <hr/>
-        <section>
-          <h2>We believe in trust & sustainability for open-source.</h2>
-          <p>
-          Our mission is to create a peer-to-peer network run by the free software community and backed by a sustainable economy — one in which value is redistributed back to those who contribute and maintain our digital commons. Therefore, we plan to distribute a majority of the network to the greater free and open source community.
-          </p>
-          <Link href="/about">
-            <a>→ Read more here</a>
-          </Link>
-          <br/>
-          <img src="https://res.cloudinary.com/dvargvav9/image/upload/v1568983538/Untitled_1_xdcakc.png" alt="sustain-os"/>
+        <section id="how-it-works">
+          <div className="container">
+            <div className="left-box">
+              <h2>How it works</h2>
+              <div id="dev-links">
+                <p>
+                  Read the <Link href="https://github.com/radicle-dev"><a>protocol specification</a></Link>
+                </p>
+                <p>
+                  Browse the <Link href="https://github.com/radicle-dev"><a>protocol source code</a></Link>
+                </p>
+              </div>
+            </div>
+            <p>
+                We adopt the SSB &quot;social overlay&quot; paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) git backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g pijul. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
+            </p>
+          </div>
         </section>
       </div>
     </Page>

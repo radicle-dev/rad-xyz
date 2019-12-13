@@ -3,12 +3,144 @@
 @import "reset";
 @import "colors";
 @import "typography";
-@import "global";
 
-//homepage
-// three-up section
-#three-up {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 24px;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $white;
+  color: $black;
+  height: 100%;
+  font-family: FoundersGrotesk, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  overflow-x: hidden;
+
+
+  @media (max-width: 640px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+header {
+  background-color: $white;
+
+  a#logo {
+    border-bottom: 0;
+  }
+}
+
+
+h2 {
+  margin-bottom: 24px;
+}
+
+
+section .container,
+footer .container,
+header .container {
+  margin: auto;
+  max-width: 960px;
+  padding: 64px 24px;
+
+}
+
+input[type=email] {
+  padding: 8px 18px 12px;
+  border: 2px solid $blue;
+  border-radius: 4px;
+  color: $white;
+}
+
+button {
+  padding: 8px 18px 12px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:hover {
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+}
+
+
+#subtitle {
+  background-color: $white;
+
+  .container {
+    padding: 0 24px 24px;
+  }
+
+}
+
+#value-prop {
+  background-color: $white;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    padding-bottom: 112px;
+  }
+
+}
+
+#how-it-works {
+  background-color: $black;
+  color: $white;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+
+    .left-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    #dev-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+}
+
+
+footer {
+  background-color: $black;
+  color: $white;
+
+  p {
+    padding-bottom: 24px;
+    ;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    ;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-column-gap: 16px;
+    }
+  }
 }
