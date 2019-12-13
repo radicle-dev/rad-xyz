@@ -11,16 +11,16 @@ export default function Footer() {
               Radicle is actively being built, explored, and experimented with. To follow our progress you can:
           </p>
           <ul>
-            <li>Follow us on <Link href="https://twitter.com/radicle_xyz">
-              <a>twitter</a>
-            </Link></li>
-            <li>Explore the code on <Link href="https://github.com/radicle-dev">
-              <a>github</a>
-            </Link></li>
-            <li>Join the conversation on <Link href="https://radicle.community">
-              <a>discourse</a></Link> and <Link href="irc://freenode:1/radicle">
-              <a>IRC</a>
-            </Link></li>
+            <li>Follow us on <a href="https://twitter.com/radicle_xyz">
+              twitter
+            </a></li>
+            <li>Explore the code on <a href="https://github.com/radicle-dev">
+              github
+            </a></li>
+            <li>Join the conversation on <a href="https://radicle.community">
+              discourse</a> and <a href="irc://freenode:1/radicle">
+              IRC</a>
+            </li>
           </ul>
         </div>
         <div>

@@ -60,10 +60,10 @@ export default function Index() {
               <h2>How it works</h2>
               <div id="dev-links">
                 <p>
-                  Read the protocol <Link href="https://github.com/radicle-dev/radicle-link/blob/master/spec/out/radicle-link.pdf"><a>specification</a></Link>
+                  Read the protocol <a href="https://github.com/radicle-dev/radicle-link/blob/master/spec/out/radicle-link.pdf">specification</a>
                 </p>
                 <p>
-                  Browse the protocol <Link href="https://github.com/radicle-dev/radicle-link"><a>source code</a></Link>
+                  Browse the protocol <a href="https://github.com/radicle-dev/radicle-link">source code</a>
                 </p>
               </div>
             </div>
