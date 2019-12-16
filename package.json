@@ -1,7 +1,7 @@
 {
-  "name": "accessp2p.xyz",
+  "name": "radicle.xyz",
   "version": "1.0.0",
-  "description": "The accessP2P website",
+  "description": "radicle",
   "main": "index.js",
   "scripts": {
     "build": "NODE_PATH=. next build",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monadic.xyz/access-p2p.git"
+    "url": "git+https://github.com/radicle-dev/rad-xyz.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monadic.xyz/access-p2p/issues"
+    "url": "https://github.com/radicle-dev/rad-xyz/issues"
   },
-  "homepage": "https://github.com/monadic.xyz/access-p2p#readme",
+  "homepage": "https://github.com/radicle-dev/rad-xyz#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.0.2",
