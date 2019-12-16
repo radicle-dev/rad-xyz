@@ -14,6 +14,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title key="title">radicle</title>
           <link rel="shortcut icon" href="/static/favicon.ico" />
         </Head>
         <body>
