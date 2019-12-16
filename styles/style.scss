@@ -28,7 +28,39 @@ header {
 
   a#logo {
     border-bottom: 0;
+    margin-left: 0;
+
+    svg:last-child {
+      margin-left: 8px;
+    }
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $pink;
+
+      &:last-child {
+        margin-left: 32px;
+      }
+    }
+
+    @media (max-width: 640px) {
+
+      flex-direction: column;
+
+      nav {
+        margin-top: 24px;
+
+        a:last-child {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -82,6 +114,8 @@ button {
   }
 
 }
+
+
 
 #value-prop {
   background-color: $white;
@@ -161,13 +195,14 @@ button {
   color: $pink;
   margin-top: 16px;
   margin-bottom: 16px;
+  overflow: hidden;
 }
+
 
 
 footer {
   background-color: $black;
   color: $white;
-  padding-bottom: 96px;
 
 
   p {
@@ -203,5 +238,18 @@ footer {
         grid-row-gap: 16px;
       }
     }
+  }
+}
+
+#monadic {
+  display: flex;
+  overflow: hidden;
+  color: $white;
+  padding: 96px 0 24px 0;
+  font-size: 14px;
+
+  a {
+    font-family: FoundersGroteskMono;
+    line-height: 100%;
   }
 }

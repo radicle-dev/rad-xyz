@@ -27,5 +27,8 @@ export default function Footer() {
           </form>
         </div>
       </div>
+      <div id="monadic">
+        <pre><code>--.., supported by </code></pre><a href="https://monadic.xyz">monadic.xyz</a><pre><code> --'`,---..-.--+--.,,-,,..._.--..-._.---.--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.---.--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.---.</code></pre>
+      </div>
     </footer>)
 }
