@@ -1,5 +1,5 @@
 import Page from 'layouts/page'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function Index() {
   return (
