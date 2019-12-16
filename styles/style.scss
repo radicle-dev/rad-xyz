@@ -115,6 +115,10 @@ button {
     @media (max-width: 640px) {
       grid-template-columns: 1fr;
       grid-row-gap: 32px;
+
+      .left-box {
+        padding-top: 64px;
+      }
     }
 
     .left-box {
@@ -178,6 +182,10 @@ footer {
     @media (max-width: 640px) {
       grid-template-columns: 1fr;
       grid-row-gap: 32px;
+
+      div:last-child {
+        padding-top: 64px;
+      }
     }
 
     div {
