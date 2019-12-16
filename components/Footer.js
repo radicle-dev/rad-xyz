@@ -9,16 +9,10 @@ export default function Footer() {
               Radicle is free and open source software, we welcome all contributors.
           </p>
           <ul>
-            <li>Follow us on <a href="https://twitter.com/radicle_xyz">
-              twitter
-            </a></li>
-            <li>Contribute to the development on <a href="https://github.com/radicle-dev">
-              github
-            </a></li>
-            <li>Join the conversation on <a href="https://radicle.community">discourse</a>
-            </li>
-            <li>Drop in the <a href="irc://freenode:1/radicle">#radicle</a> channel on freenode
-            </li>
+            <li>Follow us on <a href="https://twitter.com/radicle_xyz">twitter</a>.</li>
+            <li>Contribute to the development on <a href="https://github.com/radicle-dev">github</a>.</li>
+            <li>Join the conversation on <a href="https://radicle.community">discourse</a>.</li>
+            <li>Drop in the <a href="irc://freenode:1/radicle">#radicle</a> channel on freenode.</li>
           </ul>
         </div>
         <div>
