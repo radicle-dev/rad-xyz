@@ -25,15 +25,16 @@ export default function Index() {
               </p>
             </div>
             <div>
-              <h2>Secure</h2>
+              <h2>Secure &amp; Trustless</h2>
               <p>
-                Cryptographic peer identities and way better keys that take security to another level
+                Cryptographic peer identities and way better keys that take security to another level.
+                Shared ownership of projects & everything that comes with that.
               </p>
             </div>
             <div>
-              <h2>Trustless</h2>
+              <h2>Sustainable</h2>
               <p>
-                Shared ownership of projects & everything that comes with that.
+                Enabling developers to monetize their work while releasing their software in the open.
               </p>
             </div>
           </div>
