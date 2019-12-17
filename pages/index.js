@@ -27,7 +27,7 @@ export default function Index() {
             <div>
               <h2>Secure &amp; trustless</h2>
               <p>
-                All your artifacts (yes, even reviews) are cryptographically signed and backed by secure peer identities so you don't have to trust intermediaries to collaborate and verify.
+                All your artefacts - including reviews - are cryptographically signed and backed by secure peer identities, so you don't have to trust intermediaries.
               </p>
             </div>
             <div>
