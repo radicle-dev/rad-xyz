@@ -21,20 +21,19 @@ export default function Index() {
             <div>
               <h2>Local-first</h2>
               <p>
-                All data, including issues, comments and other social artifacts is yours & lives on your machine.
+                All data, including issues, comments and reviews, is yours & lives on your machine. Everything is always available - even offline.
               </p>
             </div>
             <div>
-              <h2>Secure &amp; Trustless</h2>
+              <h2>Secure &amp; trustless</h2>
               <p>
-                Cryptographic peer identities and way better keys that take security to another level.
-                Shared ownership of projects & everything that comes with that.
+                All your artefacts - including reviews - are cryptographically signed and backed by secure peer identities, so you don't have to trust intermediaries.
               </p>
             </div>
             <div>
-              <h2>Sustainable</h2>
+              <h2>Sustainable &amp; community-owned </h2>
               <p>
-                Enabling developers to monetize their work while releasing their software in the open.
+                Fund your open source projects, contributors, and dependencies in a network collectively owned by the FOSS community.
               </p>
             </div>
           </div>
@@ -42,7 +41,7 @@ export default function Index() {
         <section id="how-it-works">
           <div className="container">
             <div className="left-box">
-              <h2>A peer-to-peer collaboration model</h2>
+              <h2>A new old collaboration model</h2>
               <section id="flowers">
                 <pre><code>                _(_)_     </code></pre>
                 <pre><code>    @@@@       (_)@(_)    </code></pre>
@@ -55,7 +54,7 @@ export default function Index() {
               </section>
             </div>
             <p>
-              Peer-to-peer networking offers a new design space for bazaar-style development, as it provides new communication pathways for developers that aren't limited by current processes and workflows. That's why we've decided to pursue a <em>multi-upstream</em> model for Radicle. We've realized by exploring multi-upstream peer-to-peer development makes it far easier for developers and maintainers to develop not just a shared, but a <em>trusted</em> representation grounded in actual source code <em>and</em> secure peer identities.
+              From GitHub to the Linux Kernel Mailing List, we've seen free and open source collaboration take shape as varying workflows & practices. With peer-to-peer technology, we have the ability to uncover new means of collaboration for developers that aren't limited by current user experiences or platforms. Radicle returns control back to the individual and empowers developers to renvision what shared, open, and trusted code collaboration can be.
             </p>
             <div className="left-box">
               <h2>How it works</h2>
@@ -69,7 +68,7 @@ export default function Index() {
               </div>
             </div>
             <p>
-                We adopt the SSB <q>social overlay</q> paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) git backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g pijul. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
+                Code is shared and collaborated on in a peer-to-peer replication layer built on top of a distributed version control system. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
             </p>
           </div>
         </section>
