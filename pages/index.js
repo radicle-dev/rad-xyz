@@ -33,7 +33,7 @@ export default function Index() {
             <div>
               <h2>Sustainable &amp; community-owned </h2>
               <p>
-                Support and fund your open source projects, contributions, and dependencies with wallets and shared multi-sigs in a network collectively owned by the FOSS community.
+                Fund your open source projects, contributors, and dependencies in a network collectively owned by the FOSS community.
               </p>
             </div>
           </div>
