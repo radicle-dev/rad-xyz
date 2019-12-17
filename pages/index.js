@@ -69,12 +69,13 @@ export default function Index() {
               </div>
             </div>
             <p>
-              We adopt the SSB <q>social overlay</q> paradigm to establish a peer-to-peer replication
+              We adopt the <a href="https://scuttlebutt.nz/">SSB</a> <q>social overlay</q> paradigm to establish a peer-to-peer replication
               layer on top of distributed version control systems. We model this largely based on an
-              (unmodified) git backend, but strive for the protocol to be general enough to allow
-              implementations on top of different paradigms, e.g pijul. <br/>
-              Crypto signing / blockchain (registry): to complement the replication layer we introduce
-              a consensus based registry of canonical project metadata, such as unique user and project names, state hashes, ... /
+              (unmodified) <code>git</code> backend, but strive for the protocol to be general enough to allow
+              implementations on top of different paradigms, e.g <a href="https://pijul.org">pijul</a>. To complement the replication layer we introduce
+              a totally-ordered consensus-backed registry which holds canonical project metadata. This allows projects
+              to anchor important information&mdash;such as project state and repository head&mdash;with
+              the guarantee of global availability and immutability.
             </p>
           </div>
         </section>
