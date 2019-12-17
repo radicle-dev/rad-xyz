@@ -2,11 +2,11 @@
 
 set -x
 
-touch docs/.nojekyll
-touch docs/CNAME
+touch build/.nojekyll
+touch build/CNAME
 
-echo "radicle.xyz" > docs/CNAME
+echo "radicle.xyz" > build/CNAME
 
-git add docs
+git add build
 git commit -m "Deploy"
 git push origin master
