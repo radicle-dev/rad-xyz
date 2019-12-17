@@ -38,6 +38,7 @@ header {
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     a {
       color: $pink;
@@ -50,6 +51,7 @@ header {
     @media (max-width: 640px) {
 
       flex-direction: column;
+      align-items: flex-start;
 
       nav {
         margin-top: 24px;
