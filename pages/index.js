@@ -27,7 +27,7 @@ export default function Index() {
             <div>
               <h2>Secure &amp; trustless</h2>
               <p>
-                All your artefacts - including reviews - are cryptographically signed and backed by secure peer identities, so you don't have to trust intermediaries.
+                All your artefacts&mdash;including reviews&mdash;are cryptographically signed and backed by secure peer identities, so you don't have to trust intermediaries.
               </p>
             </div>
             <div>
@@ -41,7 +41,7 @@ export default function Index() {
         <section id="how-it-works">
           <div className="container">
             <div className="left-box">
-              <h2>A new old collaboration model</h2>
+              <h2>A <strike>new</strike> old collaboration model</h2>
               <section id="flowers">
                 <pre><code>                _(_)_     </code></pre>
                 <pre><code>    @@@@       (_)@(_)    </code></pre>
@@ -54,7 +54,8 @@ export default function Index() {
               </section>
             </div>
             <p>
-              From GitHub to the Linux Kernel Mailing List, we've seen free and open source collaboration take shape as varying workflows & practices. With peer-to-peer technology, we have the ability to uncover new means of collaboration for developers that aren't limited by current user experiences or platforms. Radicle returns control back to the individual and empowers developers to renvision what shared, open, and trusted code collaboration can be.
+              Peer-to-peer networking offers a new design space for bazaar-style development. <br/>
+              issues & prs locally /
             </p>
             <div className="left-box">
               <h2>How it works</h2>
@@ -68,7 +69,12 @@ export default function Index() {
               </div>
             </div>
             <p>
-                Code is shared and collaborated on in a peer-to-peer replication layer built on top of a distributed version control system. We assume a mostly non-adversarial setting. Features requiring strong sybil resistance (or are otherwise difficult to implement in a purely peer-to-peer way) are out of the scope of this specification.
+              We adopt the SSB <q>social overlay</q> paradigm to establish a peer-to-peer replication
+              layer on top of distributed version control systems. We model this largely based on an
+              (unmodified) git backend, but strive for the protocol to be general enough to allow
+              implementations on top of different paradigms, e.g pijul. <br/>
+              Crypto signing / blockchain (registry): to complement the replication layer we introduce
+              a consensus based registry of canonical project metadata, such as unique user and project names, state hashes, ... /
             </p>
           </div>
         </section>
