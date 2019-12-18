@@ -15,7 +15,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <title key="title">radicle</title>
-          <link rel="shortcut icon" href="/static/favicon.ico" />
+          <link rel="shortcut icon" href="static/favicon.ico" />
         </Head>
         <body>
           <Main />
