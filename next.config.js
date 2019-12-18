@@ -1,5 +1,6 @@
 const withCss = require('@zeit/next-css')
 const withSass = require('@zeit/next-sass')
+const isProd = process.env.NODE_ENV === 'production'
 
 const config = {
   webpack(config) {
@@ -32,3 +33,4 @@ const config = {
 }
 
 module.exports = withCss(withSass(config))
+module.exports.assetPrefix = isProd ? '/rad-xyz' : ''
