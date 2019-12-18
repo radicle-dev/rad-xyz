@@ -33,7 +33,7 @@ export default function Index() {
             <div>
               <h2>Sustainable &amp; community-owned </h2>
               <p>
-                Fund your open source projects, contributors, and dependencies in a network collectively owned by the FOSS community.
+                Fund your open source projects, contributors, and dependencies in a network collectively owned by the free and open source community.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Index() {
         <section id="how-it-works">
           <div className="container">
             <div className="left-box">
-              <h2>A new old collaboration model</h2>
+              <h2>A new (old) collaboration model</h2>
               <section id="flowers">
                 <pre><code>                _(_)_     </code></pre>
                 <pre><code>    @@@@       (_)@(_)    </code></pre>
@@ -54,7 +54,7 @@ export default function Index() {
               </section>
             </div>
             <p>
-              From GitHub to the Linux Kernel Mailing List, we've seen free and open source collaboration take shape as varying workflows & practices. With peer-to-peer technology, we have the ability to uncover new means of collaboration for developers that aren't limited by current user experiences or platforms. Radicle returns control back to the individual and empowers developers to renvision what shared, open, and trusted code collaboration can be.
+              From GitHub to the Linux Kernel Mailing List, we've seen free and open source development take shape within varying workflows & practices. With peer-to-peer technology, we can design new ways for developers to collaborate that aren't limited by current user experiences or platforms. Radicle puts the focus on <em>open & bazaar-style</em> development by implementing a <em>multi-upstream</em> model, built on trusted & extensible primitives to encourage experimentation around how we build software together.
             </p>
             <div className="left-box">
               <h2>How it works</h2>
