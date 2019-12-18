@@ -15,7 +15,7 @@ export default function Index() {
             <div>
               <h2>Peer-to-peer</h2>
               <p>
-                Extending git with peer-to-peer networking. No hassle with setting up your own hosting, and no need to trust companies with your data.
+                Extending git with peer-to-peer networking. No hassle to set up your own hosting, and no need to trust companies with your data.
               </p>
             </div>
             <div>
@@ -54,11 +54,10 @@ export default function Index() {
               </section>
             </div>
             <p>
-              Peer-to-peer networking offers a new design space for <a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/">bazaar-style</a> development.
-              Radicle was built to offer a convenient collaboration workflow without intermedaries or central servers. Issues, patches and code review items can be
-              shared seamlessly between peers and interacted with on the user's machine, just like one interacts with a <code>git</code> repository. Login systems are replaced by public key cryptography, hosted issue trackers are replaced by peer
-              replication and locally-hosted software, and the idea of a code repository that one pushes to is replaced by a multi-upstream model familiar
-              to the open source hackers of the 90s and early 2000s&mdash;enhanced with a new protocol for peer collaboration.
+              Radicle was built to provide a convenient collaboration workflow <em>without intermedaries or central servers</em>.  Issues, patches and code review items can be shared seamlessly between peers and interacted with on the user's machine, just like one interacts with a <code>git</code> repository.
+              <br />
+              <br />
+              Designed around peer-to-peer networking, it offers a new design space for <a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/">bazaar-style</a> development. Login systems are replaced by public key cryptography, hosted issue trackers are replaced by local peer replication, and the idea of a single canonical upstream is replaced by a <em>multi-upstream</em> model familiar to the open source hackers of the 90s and early 2000s - updated with a new protocol for open & trusted peer collaboration.
             </p>
             <div className="left-box">
               <h2>How it works</h2>
