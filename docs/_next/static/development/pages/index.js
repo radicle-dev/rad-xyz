@@ -9794,7 +9794,7 @@ function Index() {
       lineNumber: 17
     },
     __self: this
-  }, "Extending git with peer-to-peer networking. No hassle with setting up your own hosting, and no need to trust companies with your data.")), __jsx("div", {
+  }, "Extending git with peer-to-peer networking. No hassle to set up your own hosting, and no need to trust companies with your data.")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -9990,246 +9990,270 @@ function Index() {
       lineNumber: 56
     },
     __self: this
-  }, "Peer-to-peer networking offers a new design space for ", __jsx("a", {
-    href: "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/",
+  }, "Radicle was built to provide a convenient collaboration workflow ", __jsx("em", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
-  }, "bazaar-style"), " development. Radicle was built to offer a convenient collaboration workflow without intermedaries or central servers. Issues, patches and code review items can be shared seamlessly between peers and interacted with on the user's machine, just like one interacts with a ", __jsx("code", {
+  }, "without intermedaries or central servers"), ".  Issues, patches and code review items can be shared seamlessly between peers and interacted with on the user's machine, just like one interacts with a ", __jsx("code", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "git"), " repository.", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, "git"), " repository. Login systems are replaced by public key cryptography, hosted issue trackers are replaced by peer replication and locally-hosted software, and the idea of a code repository that one pushes to is replaced by a multi-upstream model familiar to the open source hackers of the 90s and early 2000s\u2014enhanced with a new protocol for peer collaboration."), __jsx("div", {
+  }), "Designed around peer-to-peer networking, it offers a new design space for ", __jsx("a", {
+    href: "http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "bazaar-style"), " development. Login systems are replaced by public key cryptography, hosted issue trackers are replaced by local peer replication, and the idea of a single canonical upstream is replaced by a ", __jsx("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "multi-upstream"), " model familiar to the open source hackers of the 90s and early 2000s - updated with a new protocol for open & trusted peer collaboration."), __jsx("div", {
     className: "left-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 62
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 63
     },
     __self: this
   }, "How it works"), __jsx("div", {
     id: "dev-links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 64
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 65
     },
     __self: this
   }, "Read the protocol ", __jsx("a", {
     href: "https://github.com/radicle-dev/radicle-link/blob/master/spec/out/radicle-link.pdf",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 66
     },
     __self: this
   }, "specification")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 68
     },
     __self: this
   }, "Browse the protocol ", __jsx("a", {
     href: "https://github.com/radicle-dev/radicle-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 69
     },
     __self: this
   }, "source code")))), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 73
     },
     __self: this
   }, "We adopt the ", __jsx("a", {
     href: "https://scuttlebutt.nz/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 74
     },
     __self: this
   }, "SSB"), " ", __jsx("q", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 74
     },
     __self: this
   }, "social overlay"), " paradigm to establish a peer-to-peer replication layer on top of distributed version control systems. We model this largely based on an (unmodified) ", __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 76
     },
     __self: this
   }, "git"), " backend, but strive for the protocol to be general enough to allow implementations on top of different paradigms, e.g ", __jsx("a", {
     href: "https://pijul.org",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 77
     },
     __self: this
   }, "pijul"), ". To complement the replication layer we introduce a totally-ordered consensus-backed registry which holds canonical project metadata. This allows projects to anchor important information\u2014such as project state and repository head\u2014with the guarantee of global availability and immutability."))), __jsx("section", {
     id: "clouds",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 84
     },
     __self: this
   }, __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 85
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 85
     },
     __self: this
   }, "                _                                                _                                                     _                                                _                                                    _                                                _                                                ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }, "              (`  ).                   _                       (`  ).                   _                            (`  ).                   _                       (`  ).                   _                           (`  ).                   _                       (`  ).                   _                         ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     },
     __self: this
   }, "             (     ).              .:(`  )`.                  (     ).              .:(`  )`.                       (     ).              .:(`  )`.                  (     ).              .:(`  )`.                      (     ).              .:(`  )`.                  (     ).              .:(`  )`.                     ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 88
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 88
     },
     __self: this
   }, ")           _(       '`.          :(   .    )                _(       '`.          :(   .    )                     _(       '`.          :(   .    )                _(       '`.          :(   .    )                    _(       '`.          :(   .    )                _(       '`.          :(   .    )                    ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 89
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 89
     },
     __self: this
   }, "        .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )                .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )               .=(`(      .   )     .--  `.  (    ) )           .=(`(      .   )     .--  `.  (    ) )                   ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 90
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 90
     },
     __self: this
   }, "       ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )                ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )               ((    (..__.:'-'   .+(   )   ` _`  ) )           ((    (..__.:'-'   .+(   )   ` _`  ) )                    ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
     },
     __self: this
   }, "`.     `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._             `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._            `(       ) )       (   .  )     (   )  ._        `(       ) )       (   .  )     (   )  ._                 ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 92
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 92
     },
     __self: this
   }, "  )      ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )             ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )            ` __.:'   )     (   (   ))     `-'.-(`  )        ` __.:'   )     (   (   ))     `-'.-(`  )               ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     },
     __self: this
   }, ")  )  ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))        ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))       ( )       --'       `- __.'         :(      ))   ( )       --'       `- __.'         :(      ))             ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 94
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 94
     },
     __self: this
   }, ".-'  (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))      (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))     (_.'          .')                    `(    )  )) (_.'          .')                    `(    )  ))            ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 95
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 95
     },
     __self: this
   }, "                  (_  )                     ` __.:'                (_  )                     ` __.:'                     (_  )                     ` __.:'                (_  )                     ` __.:'                    (_  )                     ` __.:'                (_  )                     ` __.:'              ")), __jsx("pre", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 96
     },
     __self: this
   }, __jsx("code", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 96
     },
     __self: this
   }, "                                                                                                                                                                                                                                                                                                                               ")))));
